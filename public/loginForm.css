@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.form input {
+    border: 2px solid black;
+    font-size: 16px;
+    color: #0074D9;
+    margin-top: 14px;
+    width: 25%;
+}
+.form label {
+    width: 25%;
+    top: 20px;
+    position: relative;
+    opacity: 0.95;
+    font-size: 22px;
+}
+.form input::placeholder {
+    opacity: 0.5;
+    color: black;
+    font-size: 16px;
+}
+.submit{
+    width: 15.6%;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    border: 8px solid green;
+}
+.textarea {
+    position: relative;
+    top:20px;
+}
